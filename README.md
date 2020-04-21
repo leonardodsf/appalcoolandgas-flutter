@@ -18,5 +18,4 @@ samples, guidance on mobile development, and a full API reference.
 ## App Running
 
 - Live
-
-![Screen App](https://user-images.githubusercontent.com/54339869/79819016-871a4900-835f-11ea-9eb1-e452a917b501.gif)
+<img src="https://user-images.githubusercontent.com/54339869/79819016-871a4900-835f-11ea-9eb1-e452a917b501.gif" width="300" height="600"/>
