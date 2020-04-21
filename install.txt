@@ -1,0 +1,28 @@
+change icon of app
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+flutter pub pub run flutter_launcher_icons:main
+
+
+change name of app
+
+ANDROID 
+
+android/app/src/main -> AndroidManifest.xml -> <application> -> android:label "NameApp"
+
+IOS
+
+ios/runner/info.plist -> <key>CFBundleName</key> -> <string>Álcool ou Gasolina</string>
+
+
+GENERATE APP BUILD
+
+For apk (Android) you need to run the command :
+
+flutter build apk --release
+
+For ipa (iOS) you need to run the command :
+
+flutter build ios --release
